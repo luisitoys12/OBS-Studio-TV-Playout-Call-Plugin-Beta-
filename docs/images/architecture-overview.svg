@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="880" viewBox="0 0 1400 880">
+  <rect width="1400" height="880" fill="#F5F8FC"/>
+  <text x="30" y="50" fill="#142032" font-size="38" font-family="Arial">Arquitectura Inicial del Plugin</text>
+
+  <rect x="60" y="100" rx="16" ry="16" width="370" height="170" fill="#DBEBFF" stroke="#5A6E8A" stroke-width="2"/>
+  <text x="82" y="145" fill="#0F1F34" font-size="28" font-family="Arial">OBS Host</text>
+  <text x="82" y="190" fill="#23344E" font-size="22" font-family="Arial">Carga del módulo</text>
+  <text x="82" y="220" fill="#23344E" font-size="22" font-family="Arial">obs_module_load / unload</text>
+
+  <rect x="520" y="100" rx="16" ry="16" width="380" height="170" fill="#DBFFE8" stroke="#5A6E8A" stroke-width="2"/>
+  <text x="542" y="145" fill="#0F1F34" font-size="28" font-family="Arial">Plugin Core</text>
+  <text x="542" y="190" fill="#23344E" font-size="22" font-family="Arial">Manifest + logging</text>
+  <text x="542" y="220" fill="#23344E" font-size="22" font-family="Arial">Control lifecycle</text>
+
+  <rect x="970" y="100" rx="16" ry="16" width="370" height="170" fill="#FFF1D6" stroke="#5A6E8A" stroke-width="2"/>
+  <text x="992" y="145" fill="#0F1F34" font-size="28" font-family="Arial">Locale / Data</text>
+  <text x="992" y="190" fill="#23344E" font-size="22" font-family="Arial">Textos y recursos</text>
+  <text x="992" y="220" fill="#23344E" font-size="22" font-family="Arial">multilenguaje base</text>
+
+  <rect x="220" y="420" rx="16" ry="16" width="380" height="200" fill="#F0E2FF" stroke="#5A6E8A" stroke-width="2"/>
+  <text x="242" y="465" fill="#0F1F34" font-size="28" font-family="Arial">SDK Bootstrap</text>
+  <text x="242" y="510" fill="#23344E" font-size="22" font-family="Arial">scripts/setup_obs_sdk.sh</text>
+  <text x="242" y="540" fill="#23344E" font-size="22" font-family="Arial">clone + submodules</text>
+
+  <rect x="760" y="420" rx="16" ry="16" width="380" height="200" fill="#FFE2EB" stroke="#5A6E8A" stroke-width="2"/>
+  <text x="782" y="465" fill="#0F1F34" font-size="28" font-family="Arial">Build System</text>
+  <text x="782" y="510" fill="#23344E" font-size="22" font-family="Arial">CMake + C++20</text>
+  <text x="782" y="540" fill="#23344E" font-size="22" font-family="Arial">Warnings estrictos</text>
+
+  <line x1="430" y1="185" x2="520" y2="185" stroke="#465B7A" stroke-width="4"/>
+  <polygon points="520,185 506,178 506,192" fill="#465B7A"/>
+
+  <line x1="900" y1="185" x2="970" y2="185" stroke="#465B7A" stroke-width="4"/>
+  <polygon points="970,185 956,178 956,192" fill="#465B7A"/>
+
+  <line x1="600" y1="250" x2="420" y2="420" stroke="#465B7A" stroke-width="4"/>
+  <polygon points="420,420 425,405 436,416" fill="#465B7A"/>
+
+  <line x1="900" y1="250" x2="860" y2="420" stroke="#465B7A" stroke-width="4"/>
+  <polygon points="860,420 858,404 872,407" fill="#465B7A"/>
+</svg>
