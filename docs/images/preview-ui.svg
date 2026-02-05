@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+  <rect width="1400" height="820" fill="#121826"/>
+  <rect x="0" y="0" width="1400" height="90" fill="#22304A"/>
+  <text x="30" y="55" fill="#EAF1FF" font-size="32" font-family="Arial">OBS TV Playout Call - Preview UI (Mockup)</text>
+
+  <rect x="30" y="120" rx="14" ry="14" width="310" height="660" fill="#222836" stroke="#586680" stroke-width="2"/>
+  <text x="52" y="150" fill="#FFFFFF" font-size="24" font-family="Arial">Control en Vivo</text>
+
+  <g font-family="Arial" font-size="18" fill="#DFE7F5">
+    <rect x="48" y="180" rx="10" ry="10" width="272" height="52" fill="#303A4E"/><text x="62" y="212">Escena: Programa</text>
+    <rect x="48" y="246" rx="10" ry="10" width="272" height="52" fill="#303A4E"/><text x="62" y="278">Transición: Fade 300ms</text>
+    <rect x="48" y="312" rx="10" ry="10" width="272" height="52" fill="#303A4E"/><text x="62" y="344">Playlist: PrimeTime</text>
+    <rect x="48" y="378" rx="10" ry="10" width="272" height="52" fill="#303A4E"/><text x="62" y="410">Estado: ON AIR</text>
+    <rect x="48" y="444" rx="10" ry="10" width="272" height="52" fill="#303A4E"/><text x="62" y="476">Comercial: 00:45</text>
+  </g>
+
+  <rect x="370" y="120" rx="14" ry="14" width="690" height="520" fill="#080C14" stroke="#5C6D8D" stroke-width="2"/>
+  <rect x="398" y="154" width="634" height="452" fill="#1E2232"/>
+  <text x="410" y="185" fill="#DCE6FF" font-size="21" font-family="Arial">Program Feed (OBS Scene)</text>
+  <rect x="440" y="520" rx="8" ry="8" width="540" height="60" fill="#037AAF"/>
+  <text x="460" y="557" fill="#F5FCFF" font-size="22" font-family="Arial">Invitado remoto conectado | Segmento: Entrevista Central</text>
+
+  <rect x="1085" y="120" rx="14" ry="14" width="285" height="520" fill="#222836" stroke="#586680" stroke-width="2"/>
+  <text x="1110" y="150" fill="#FFFFFF" font-size="24" font-family="Arial">Llamadas</text>
+  <g font-family="Arial" font-size="18" fill="#E1EAF6">
+    <rect x="1105" y="190" rx="10" ry="10" width="245" height="86" fill="#303A4E"/><text x="1120" y="240">Caller A (WebRTC)</text>
+    <rect x="1105" y="310" rx="10" ry="10" width="245" height="86" fill="#303A4E"/><text x="1120" y="360">Caller B (Espera)</text>
+    <rect x="1105" y="430" rx="10" ry="10" width="245" height="86" fill="#303A4E"/><text x="1120" y="480">NDI Guest (Activa)</text>
+  </g>
+
+  <rect x="370" y="660" rx="14" ry="14" width="1000" height="120" fill="#222836" stroke="#586680" stroke-width="2"/>
+  <text x="396" y="730" fill="#D7E1F5" font-size="22" font-family="Arial">Métricas en tiempo real: CPU 18% | Frames drop: 0 | Latencia llamada: 122ms</text>
+</svg>
