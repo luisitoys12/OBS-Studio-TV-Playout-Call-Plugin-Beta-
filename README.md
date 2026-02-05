@@ -6,18 +6,6 @@ Plugin para OBS Studio enfocado en automatización de playout estilo TV broadcas
 
 Este repositorio incluye un starter profesional de plugin nativo para OBS con CMake, estructura modular y script de bootstrap para descargar la librería base de OBS Studio.
 
-## Preview visual del proyecto
-
-> Estas imágenes son una **preview de diseño objetivo (mockup)** para que puedas visualizar el resultado esperado del panel broadcast y su arquitectura técnica.
-
-### 1) Preview UI broadcast (mockup)
-
-![Preview UI broadcast](docs/images/preview-ui.svg)
-
-### 2) Arquitectura inicial del plugin
-
-![Arquitectura inicial](docs/images/architecture-overview.svg)
-
 ## Arquitectura inicial
 
 - `src/plugin-main.cpp`: punto de entrada del módulo de OBS.

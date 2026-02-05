@@ -2,47 +2,38 @@
 
 ## Cambios realizados en esta versión
 
-1. Se agregaron previews visuales en `README.md` para mostrar cómo se vería el panel broadcast y la arquitectura inicial del plugin.
-2. Se crearon dos recursos gráficos SVG en `docs/images/`:
-   - `preview-ui.svg` (mockup visual de operación en vivo).
-   - `architecture-overview.svg` (diagrama de componentes y flujo inicial).
-3. Se mantuvo la base de compilación CMake + C++20 y el flujo de bootstrap de OBS SDK.
+1. Se reconstruyó la base del plugin nativo para OBS Studio con CMake y C++20.
+2. Se agregó el punto de entrada del módulo (`src/plugin-main.cpp`) con logs de carga y descarga.
+3. Se añadió manifiesto tipado (`include/obs_tv_playout/core/plugin_manifest.hpp`) para metadatos.
+4. Se añadió localización base en `data/locale/en-US.ini`.
+5. Se añadió `scripts/setup_obs_sdk.sh` para clonar/actualizar OBS Studio y submódulos.
+6. Se actualizó `README.md` con pasos de bootstrap y compilación.
 
 ## Requisitos o dependencias nuevas
 
-- No se añadieron dependencias nuevas de runtime/build para el código.
-- Solo se incorporaron assets SVG estáticos para documentación visual en README.
+- Git
+- CMake 3.24+
+- Compilador compatible con C++20
+- SDK/libobs disponible para resolver `find_package(libobs REQUIRED)`
 
 ## Guía paso a paso para probar la funcionalidad
 
-1. Abrir visualmente la documentación:
+1. Descargar la base de OBS Studio:
 
    ```bash
-   cat README.md
+   ./scripts/setup_obs_sdk.sh
    ```
 
-   O abrir el README en tu editor/visor Markdown para ver las imágenes incrustadas desde `docs/images/*.svg`.
-
-2. Verificar estructura de archivos de preview:
-
-   ```bash
-   ls -la docs/images
-   ```
-
-3. Validar script de bootstrap:
-
-   ```bash
-   bash -n scripts/setup_obs_sdk.sh
-   ```
-
-4. Probar configuración de build (requiere SDK libobs instalado):
+2. Configurar build:
 
    ```bash
    cmake -S . -B build
    ```
 
-5. Compilar plugin:
+3. Compilar:
 
    ```bash
    cmake --build build
    ```
+
+4. Verificar que se genere el módulo `obs-tv-playout-call`.
